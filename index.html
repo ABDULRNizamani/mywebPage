@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+    body {
+      background-color: black;
+      color: white;
+      font-family: 'Patrick Hand', cursive;
+      border: solid 5px #007acc;
+      padding: 0%;
+    }
+
+    .bus-container {
+      display: flex;
+      align-items: center;
+      gap: 25%;
+    }
+
+    .bus-img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 60%;
+      transition: transform 0.2s ease;
+    }
+
+   .bus-img:hover{
+    transform: scale(1.1);
+   }
+
+    .bus{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .table {
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      gap: 170px;
+    }
+
+    .table-1, .table-2 {
+      flex: 1 1 0;
+      min-width: 100px;
+      background: white;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    
+ .foot{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+
+ }
+
+ .foot img {
+  width: 30px;
+  height: 30px;
+}
+
+ .foot img:hover {
+  transform: scale(1.2);
+  border-color: #000;
+  background-color: #f2f2f2;
+}
+
+    
+  </style>
+</head>
+<body>
+  <div class="bus-container">
+    <img src="IMG-20240708-WA0024.jpg" class="bus-img" style="height: 170px; width: 170px; margin-left: 30px;">
+  <div class="bus" style="align-items: center;"> <h1>BUSSINESS CARD</h1>
+    <h3 style="align-items: center; margin-bottom: 0px; margin-top: 44px;">Abdul Rehman</h3>
+    <p style="margin-top: 10px;">yhvvvbk@gmail.com</p>
+  </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="table" style="border: solid 5px #2d2d2d; margin-left: 350px; margin-right: 350px;">
+   <div class="tab-1">
+    <h5 style="margin-left: 150px;">INTRESTES:</h5>
+    <ul style="margin-top: 0px; margin-left: 160px;">
+      <li>Web Development</li>
+      <li>Software Engineering</li>
+      <li>Artificial Intelligence</li>
+      <li>PHYSICS</li>
+   </div>
+   <div class="tab-2" style="margin-right: 250px;">
+    <h5>SKILLS:</h5>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+   </div>
+  </div>
+ <br>
+ <br>
+ <footer class="foot" style="border: solid 7px #B22222; margin-right: 525px; margin-left: 525px; margin-bottom: 10px; background-color:#22223b ;">
+  <!--gitHub img-->
+  <a href="https://github.com/" target="_blank">
+  <img src="download (1).png" style="width: 35px; height: 35px; border-radius: 35%; align-items: center;">
+  </a>
+
+<!--instagram img--> 
+  <a href="https://www.instagram.com/" target="_blank">
+  <img src="down (3).jpg" style="width: 35px; height: 35px; border-radius: 35%; align-items: center;">
+  </a>
+
+ </footer>
+</body>
+</html>
